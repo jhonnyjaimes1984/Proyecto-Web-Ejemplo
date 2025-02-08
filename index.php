@@ -27,6 +27,5 @@
 			<li><a href="borrar.php">Borrar Datos</a></li>
 		</ul>
 	</nav>
-	
 </body>
 </html>
