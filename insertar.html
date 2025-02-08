@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title> </title>
+  <meta name="lang" content="es">
+  <meta name="author" content="">
+  <meta name="robots" content="index,follow"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+</head>
+<body>
+  <form  action="guardar.php" method="post">
+    <h1>Ingrese los datos del contacto para guardarlos en la base de datos</h1>
+    <br>
+    <label for="nombre">Nombres: </label>
+    <br>
+    <input type="text" name="nombre" id="nombre"  placeholder="Nombre del contacto"  required autocomplete="off" >
+    <br><br>
+    <label for="apellido" >Apellidos: </label>
+    <br>
+    <input type="text" name="apellido" id="apellido"  placeholder="Apellidos del contacto"  required autocomplete="off" >
+    <br><br>
+    <label for="fecha" >Fecha de nacimiento: </label>
+    <br>
+    <input type="date" name="fecha" id="fecha"  placeholder="fecha de nacimiento"  required autocomplete="off" >
+    <br><br>
+    <label for="email">Email: </label>
+    <br>
+    <input type="email"  name="email" id="email"  placeholder="Email"  required autocomplete="off" >
+    <br><br>
+    <label for="telefono" >Telefono: </label>
+    <br>
+    <input type="number" step="any" name="telefono" id="telefono"  placeholder="Telefono"  required autocomplete="off" >
+    <br><br><br>
+    <button  type="submit">Guardar</button>
+  </form>
+  <br>
+  <a href="index.php">Volver al inicio</a>
+</body>
+</html>
