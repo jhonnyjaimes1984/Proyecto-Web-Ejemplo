@@ -51,4 +51,6 @@ $productos = $sentencia->fetchAll(PDO::FETCH_OBJ);?>
 <br> 
 <a href="index.php">Volver al inicio</a> 
 </div>
+</body>
+</html>
 

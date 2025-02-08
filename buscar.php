@@ -10,8 +10,11 @@
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link href="style.css" rel="stylesheet">
 </head>
 <body>
+<div class="container justify-content-md-center col-10">
+	<br>
 	<h1>Coloque los datos del contactos para buscarlo</h1>
 <br>
 	<form method="post" action="contacto.php"> 
