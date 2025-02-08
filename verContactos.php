@@ -1,10 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title> </title>
+	<meta name="lang" content="es">
+	<meta name="author" content="">
+	<meta name="robots" content="index,follow"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
 <?php include_once "configuracion.php";
 
 $sentencia = $base_de_datos->query("SELECT * FROM listaContactos;"); 
 $productos = $sentencia->fetchAll(PDO::FETCH_OBJ);?> 
-<h1>Tabla de todos los contactos</h1>
+<div class="container justify-content-md-center col-10">
 <br>
-<table>
+    <h1>Tabla de todos los contactos</h1>
+<br>
+
+<table class="table table-striped">
     <thead>
         <tr>
             <th><center>Identificador</center></th> 
@@ -32,4 +50,5 @@ $productos = $sentencia->fetchAll(PDO::FETCH_OBJ);?>
 </table> 
 <br> 
 <a href="index.php">Volver al inicio</a> 
-</center>
+</div>
+
