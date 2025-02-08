@@ -30,5 +30,6 @@
 	</form>
 	<br>
 	<a href="index.php">Volver al inicio</a>
+</div>
 </body>
 </html>
