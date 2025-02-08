@@ -10,6 +10,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link href="style.css" rel="stylesheet">
 </head>
 <body>
 	<nav>
